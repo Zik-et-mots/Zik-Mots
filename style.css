@@ -1,0 +1,73 @@
+body {
+    font-family: 'Gotu', sans-serif;
+    font-size: 20px;
+    
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1 { 
+    background-color: #74ecd4; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #f7dc40; /* Dark Blue */
+    color: #555555;
+  }
+  .bg-3 { 
+    background-color: #ff8345; /* White */
+    color: #ffffff;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .navbar-default {
+ /* Couleur de fond de la barre de navigation */
+ background-color: #ec9874;
+ border-color: #E7E7E7;
+}
+
+/* Couleur des titres affichés dans la barre */
+.navbar-default .navbar-brand {
+ color: #ffffff;
+}
+
+ /* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+ color: #335e51;
+}
+/* Couleur utilisée pour les liens */
+.myNavbar > li > a {
+ color: #f7dc40;
+}
+/* Couleur utilisée pour les liens lorsque la souris passe dessus */
+.navbar-default .myNavbar > li > a:hover,
+.navbar-default .myNavbar > li > a:focus {
+ color: #74ecd4;
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .myNavbar > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+ color: #555;
+ background-color: #E7E7E7;
+}
+}
+  .navbar {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
