@@ -12,6 +12,8 @@ body {
     background-color: #74ecd4;
 
     color: #555555 !important;
+     font-weight: bold !important;
+
   }
   .bg-2 { 
     background-color: #f7dc40; /* Dark Blue */
@@ -50,22 +52,11 @@ body {
 .navbar-nav > li > a {
  color: #ffffff !important;
 }
-/* Couleur utilisée pour les liens lorsque la souris passe dessus */
-.nav .navbar-nav .navbar-right > li > a:hover,
-.nav .navbar-nav .navbar-right > li > a:focus {
- color: #5e2d11;
-}
-/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
-.nav .navbar-nav .navbar-right > .active > a, 
-.nav .navbar-nav .navbar-right > .active > a:hover, 
-.nav .navbar-nav .navbar-right > .active > a:focus {
- color: #555;
- background-color: #E7E7E7;
-}
+
 }
   .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
