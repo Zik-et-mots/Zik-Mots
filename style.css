@@ -9,8 +9,9 @@ body {
   .margin {margin-bottom: 45px;}
   
   .bg-1 { 
-    background-color: #74ecd4; /* Green */
-    color: #ffffff;
+    background-color: #74ecd4;
+
+    color: #555555 !important;
   }
   .bg-2 { 
     background-color: #f7dc40; /* Dark Blue */
@@ -46,28 +47,31 @@ body {
  color: #335e51;
 }
 /* Couleur utilisée pour les liens */
-.myNavbar > li > a {
- color: #f7dc40;
+.navbar-nav > li > a {
+ color: #ffffff !important;
 }
 /* Couleur utilisée pour les liens lorsque la souris passe dessus */
-.navbar-default .myNavbar > li > a:hover,
-.navbar-default .myNavbar > li > a:focus {
- color: #74ecd4;
+.nav .navbar-nav .navbar-right > li > a:hover,
+.nav .navbar-nav .navbar-right > li > a:focus {
+ color: #5e2d11;
 }
 /* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
-.navbar-default .myNavbar > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
+.nav .navbar-nav .navbar-right > .active > a, 
+.nav .navbar-nav .navbar-right > .active > a:hover, 
+.nav .navbar-nav .navbar-right > .active > a:focus {
  color: #555;
  background-color: #E7E7E7;
 }
 }
   .navbar {
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+} 
+.navbar-nav li a:hover {
+  color: #74ecd4 !important;
 }
