@@ -56,10 +56,13 @@ body {
 }
   .navbar {
     padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
+    padding-bottom: 1px;
+    top: 0;
+    bottom: 0;
+    position: absolute; 
+    border: none !important;
     border-radius: 0;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     font-size: 12px;
     letter-spacing: 5px;
 } 
